@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: walmart_source
+    database: walmart_sales
+    schema: bronze
+    tables:
+      - name: stores
+      - name: department
+      - name: fact
